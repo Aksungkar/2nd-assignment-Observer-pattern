@@ -1,1 +1,5 @@
 # 2nd-assignment-Observer-pattern
+For the second homework, I used the Observer pattern.
+What is an Observer Pattern? Observer is a behavioral design pattern that creates a subscription mechanism that allows one object to watch and respond to events occurring in other objects.
+The main goal of my homework is so that students can register for the Olympiad at softworld.com (this is just a sample site) and new subjects will be added to this Olympiad and also subjects will be removed. In other words, this site notifies students who want to take part in the Olympiad which new subjects have been added and which have been removed.
+I have created two interfaces. The first interface is called observer and the second interface is called observable. The first interface is which will be called from our students when the subjects have changed. And the second interface, this interface is ours of the site softworld.com itself. And this site should have a mechanism for registrations, unregistrations, notification for students. Then I created concrete classes. I created students and olympiadSite classes, and implemented the methods.
